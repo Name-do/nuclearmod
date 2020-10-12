@@ -1,0 +1,6 @@
+type: material
+	name: Flowerium
+	description: This is very useful material
+	cost: 5
+	color: ff0000
+	radioactivity: 10.0

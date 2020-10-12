@@ -1,0 +1,32 @@
+name: CMS drill
+	description: CMS drill means cooling Mining Separation drill. it can mining a such as plutonium
+	type: Drill
+	size: 4
+	tier: 6
+	drillTime: 17000
+	liquidCapacity: 6000
+	consumes: {
+		power: 12.7
+		liquid: {
+			liquid: cryofluid
+			amount: 0.1
+			booster: true
+			optional: true
+		}
+	}
+	requirements: [
+		titanium/200
+		copper/100
+		lead/25
+  graphite/45
+  metaglass/3
+  silicon/25
+  plastanium/25
+	]
+liquidBoostIntensity: 17.5
+ drawRim : true
+ heatColor : 00ff00
+ rotateSpeed: 5.5
+	category: production
+	research: blast-drill
+

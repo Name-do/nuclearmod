@@ -1,0 +1,32 @@
+name:Flowerium Mixer
+description: "[green]Flowerium Mixer will make [red]Flowerium[white], It is used to [red]better overdrive projecter [white]and [blue]buildings."
+size: 3
+health: 210
+requirements: [
+		copper/50
+		lead/200
+ titanium/150
+  silicon/175
+  plastanium/200
+  thorium/75
+	]
+consumes: {
+  power: 4.1666
+  items: {
+    items: [
+      blast-compound/2
+      phase-fabric/1
+      surge-alloy/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.05
+  }
+}
+outputItem: flowerium/1
+
+craftTime: 100
+craftEffect: blastExplosion
+
+category: crafting
